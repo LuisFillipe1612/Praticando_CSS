@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(128, 128, 128);
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh; 
+}
+header {
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 215, 0);
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 5px solid rgb(255, 215, 0); 
+}
+  
+.conteudo {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center; 
+}
+  
+footer.menu-bar {
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 215, 0);
+    text-align: center;
+    padding: 10px 0;
+    border-top: 5px solid rgb(255, 215, 0);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+}
+footer.menu-bar a {
+    color: rgb(255, 215, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+footer.menu-bar a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 215, 0);
+    border-radius: 5px;
+}
+footer.menu-bar .external-link {
+    color: rgb(255, 215, 0);
+} 
+footer.menu-bar .external-link:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 215, 0);
+}
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+.galeria img {
+    max-width: 60%;
+    height: auto;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.selecao .conteudo {
+    background-color: #006600;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.selecao h2 {
+    color: #ff0000;
+    background-color: #fff;
+    border: 3px solid #ff0000;
+    border-radius: 5px;
+    padding: 10px;
+}
+.selecao p {
+    color: #fff;
+}
